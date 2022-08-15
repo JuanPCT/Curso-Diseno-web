@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Fechas</title>
+</head>
+<body>
+	<p id="fecha"></p>
+	<script>
+		//var fecha = new Date();
+
+		function mostrarTiempo(){
+			var fecha = new Date();
+			var parrafo = document.getElementById('fecha')
+			parrafo.innerHTML = fecha;
+		}
+
+		var intervalo = setInterval(mostrarTiempo, 500);
+
+
+		// document.write(fecha.getHours()+" ");
+		// document.write(fecha.getMinutes()+" ");
+		// document.write(fecha.getSeconds()+" ");
+
+		var semana = ['Domingo','Lunes','Martes','Miercoles','Jueves','Viernes','Sabado'];
+		// document.write(semana[fecha.getDay()]+" ");
+		// document.write(fecha.getMonth()+" ");
+		// document.write(fecha.getFullYear()+" ");
+
+	</script>
+</body>
+</html>

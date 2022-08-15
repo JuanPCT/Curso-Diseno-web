@@ -1,0 +1,21 @@
+body {
+	font-family: arial, sans-serif, helvetica;
+}
+
+p {
+	text-align: justify;
+	text-transform: capitalize;
+	letter-spacing: 3px;
+	line-height: 20px;
+}
+
+h1{
+	font-family: "Times New Roman",arial;
+	font-size: 28px;
+	font-style: italic;
+	font-weight: normal;
+	color: #4281ED;
+	text-align: left;
+	text-decoration: underline;
+	text-transform: uppercase;    /*uppercase lowercase capitalize*/
+}

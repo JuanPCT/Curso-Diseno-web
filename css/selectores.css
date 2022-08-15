@@ -1,0 +1,29 @@
+/* Hola mundo 
+comentario
+ */
+
+/* Selector universal
+* {color : red;}*/
+
+
+h1{
+	color: green;
+}
+
+div article p{
+	font-size: 20px;
+	color: black;
+}
+
+div p a {
+	color: red;
+}
+
+.grande {
+	font-size: 28px;
+}
+
+#rojo {
+	font-size: 20px;
+	color: red;
+}

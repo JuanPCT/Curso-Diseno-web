@@ -1,0 +1,27 @@
+a {
+	font-size: 20px;
+	text-decoration: none;
+}
+
+/* estilo cuando mouse pasa por encima del enlace*/
+a:hover {
+	background: #F9A03F;
+	color: white;
+}
+
+/* estilo para enlace no visitado*/
+a:link {
+	color: red;
+}
+
+/* estilo para enlace que ya ha sido visitado*/
+a:visited {
+	text-decoration: line-through;
+	color: lightgray;
+}
+
+/* estilo cuando se le esta dando click*/
+a:active{
+	text-decoration: underline;
+	color: red;
+}

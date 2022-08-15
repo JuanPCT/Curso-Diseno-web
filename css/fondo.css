@@ -1,0 +1,17 @@
+body{
+	/*background: #00E0FF*/;
+	/*background: url('img/bg.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;  deja el fondo estatico
+	background-position: center center;*/
+
+	background: url('img/swirl_pattern.webp') repeat fixed center center;
+}
+
+.fondo {
+	/*width: 600px;
+	height: 600px;
+	background: url('img/swirl_pattern.webp') #000;
+	background-size: 50%;*/
+}
