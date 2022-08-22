@@ -75,7 +75,7 @@ header {
     padding: 40px;
     width: 50%;
     position: relative;
-    top: 150px;
+    top: 400px;
     z-index: 1;
     float: right;
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.35); }
@@ -203,6 +203,27 @@ footer {
     position: relative;
     width: 100%;
     top: -50px;
-    transform: translate(0px, 0); } }
+    transform: translate(0px, 0); }
+  .main .menu {
+    padding-top: 150px; }
+    .main .menu article {
+      width: 100%; }
+  .main .galeria .foto {
+    width: 50%; }
+  .main .mapa {
+    width: 80%;
+    margin: auto; } }
+@media screen and (max-width: 400px) {
+  .main .acerca-de article h3 {
+    font-size: 34px;
+    margin-bottom: 10px; }
+  .main .menu article .nombre, .main .menu article .precio {
+    font-size: 16px;
+    line-height: 16px; }
+  .main .ubicacion .direccion {
+    margin-bottom: 15px; }
+  .main .ubicacion .direccion, .main .ubicacion .horarios {
+    width: 100%;
+    text-align: center; } }
 
 /*# sourceMappingURL=estilos.css.map */
