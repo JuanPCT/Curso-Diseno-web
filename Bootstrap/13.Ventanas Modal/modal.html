@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap5</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row mt-5">   
+            <div class="col">
+                <button class="btn btn-primary btn-lg"
+                data-bs-toggle="modal"
+                data-bs-target="#mi-modal-1">Abrir Modal 1</button>
+
+                <!-- Tab index es necesaria para que funcione el modal sin problemas -->
+                <div class="modal fade" id="mi-modal-1" tabindex="-1" aria-hidden="true"
+                aria-labelledby="label-modal-1">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title">Encabezado</h5>
+                                <button class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+                            </div>
+                            <div class="modal-body">
+                                <h1>Hola Mundo</h1>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-ligth" data-bs-dismiss="modal">Cancelar</button>
+                                <button type="button" class="btn btn-primary">Acepto</button>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <button class="btn btn-primary btn-lg"
+                data-bs-toggle="modal"
+                data-bs-target="#mi-modal-2">Abrir Modal 2</button>
+
+                <!-- Tab index es necesaria para que funcione el modal sin problemas -->
+                <div class="modal fade" id="mi-modal-2" tabindex="-1" aria-hidden="true"
+                aria-labelledby="label-modal-2" data-bs-backdrop="static">
+
+                    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title">Encabezado</h5>
+                                <button class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+                            </div>
+                            <div class="modal-body">
+                                <div style="height: 1000px;">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit, recusandae, 
+                                    ipsa, placeat earum assumenda dignissimos praesentium nulla deleniti corporis 
+                                    porro eum voluptate? Eos maxime expedita magni eius ut, dignissimos perspiciatis, 
+                                    soluta quo tempore amet tempora doloremque quisquam rem at aspernatur?
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-ligth" data-bs-dismiss="modal">Cancelar</button>
+                                <button type="button" class="btn btn-primary">Acepto</button>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="../js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
